@@ -68,7 +68,7 @@ public function testGetRandomJoke() {
 }
 ```
 
-### Stubbing Member Functions and Variables of an Object
+### Stubbing Member Functions and Variables of Objects
 
 Instead of creating a test double, you may also choose to create a default mock object and stub the functions to return a specific value or to do nothing.
 
@@ -173,7 +173,7 @@ function getCategoriesResponse() returns http:Response {
 }
 ```
 
-#### Stubbing to Return a Specific Value
+#### Stubbing to Return Specific Values
 
 ***main_test.bal***
  
@@ -235,7 +235,7 @@ public function testGetRandomJoke() {
 }
 ```
 
-#### Stubbing a Member Variable
+#### Stubbing Member Variables
 
 If a `client` object has a public member variable, it can be stubbed to return a mock value for testing.
 
@@ -401,7 +401,7 @@ test:MockFunction intAddMockFn = new();
 After the initialization, the following options can be used to stub the behavior of a function written in the
  module being tested.
  
-### Stubbing to Return a Specific Value
+### Stubbing to Return Specific Values
   
  This test stubs the behavior of the `get` function to return a specific value in 2 ways:
      

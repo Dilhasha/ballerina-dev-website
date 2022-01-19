@@ -37,7 +37,7 @@
         - title: Test specific Configurations
           url: /learn/testing-ballerina-code/configuring-tests/#test-specific-configurations
           active: test-specific-configurations
-        - title: Test-only Dependencies
+        - title: Test-Only Dependencies
           url: /learn/testing-ballerina-code/configuring-tests/#test-only-dependencies
           active: test-only-dependencies
         - title: Testing with Resources
